@@ -24,3 +24,8 @@ C:\Users\mahab\source\repos\TwoBrothersRealEstateServices\obj\Debug\net6.0\refin
 C:\Users\mahab\source\repos\TwoBrothersRealEstateServices\obj\Debug\net6.0\TwoBrothersRealEstateServices.pdb
 C:\Users\mahab\source\repos\TwoBrothersRealEstateServices\obj\Debug\net6.0\TwoBrothersRealEstateServices.genruntimeconfig.cache
 C:\Users\mahab\source\repos\TwoBrothersRealEstateServices\obj\Debug\net6.0\ref\TwoBrothersRealEstateServices.dll
+C:\Users\mahab\source\repos\TwoBrothersRealEstateServices\bin\Debug\net6.0\Publish\web.config
+C:\Users\mahab\source\repos\TwoBrothersRealEstateServices\bin\Debug\net6.0\Publish\appsettings.Development.json
+C:\Users\mahab\source\repos\TwoBrothersRealEstateServices\bin\Debug\net6.0\Publish\appsettings.json
+C:\Users\mahab\source\repos\TwoBrothersRealEstateServices\bin\Debug\net6.0\Publish\TwoBrothersRealEstateServices.deps.json
+C:\Users\mahab\source\repos\TwoBrothersRealEstateServices\bin\Debug\net6.0\Publish\TwoBrothersRealEstateServices.runtimeconfig.json
