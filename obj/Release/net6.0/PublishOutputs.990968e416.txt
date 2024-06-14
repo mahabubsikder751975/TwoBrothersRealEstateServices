@@ -1,0 +1,7 @@
+C:\Users\mahab\TwoBrothersRealEstateServices\out\TwoBrothersRealEstateServices.exe
+C:\Users\mahab\TwoBrothersRealEstateServices\out\appsettings.Development.json
+C:\Users\mahab\TwoBrothersRealEstateServices\out\appsettings.json
+C:\Users\mahab\TwoBrothersRealEstateServices\out\TwoBrothersRealEstateServices.dll
+C:\Users\mahab\TwoBrothersRealEstateServices\out\TwoBrothersRealEstateServices.deps.json
+C:\Users\mahab\TwoBrothersRealEstateServices\out\TwoBrothersRealEstateServices.runtimeconfig.json
+C:\Users\mahab\TwoBrothersRealEstateServices\out\TwoBrothersRealEstateServices.pdb

@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.top-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  padding: 20px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1.2em;
+}
