@@ -1,7 +1,7 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"]="Profile";
+    ViewData["Title"]="Home";
 }
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v20.0" nonce="viE5hlZh"></script>
@@ -59,7 +59,12 @@
             </div>
             <div class="row mt-3">
                 <div class="col-md-12">
-                    <a asp-area="" asp-page="/OwnersSpeech">Real Estate Guid</a>
+                    <a asp-area="" asp-page="/Services">Services</a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <a asp-area="" asp-page="/RealEstateGuide">Real Estate Guid</a>
                 </div>
             </div>
             <div class="row mt-3">

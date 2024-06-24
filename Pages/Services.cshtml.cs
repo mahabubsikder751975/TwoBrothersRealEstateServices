@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace TwoBrothersRealEstateServices.Pages;
 
-public class OwnersSpeechModel : PageModel
+public class ServicesModel : PageModel
 {
-    private readonly ILogger<OwnersSpeechModel> _logger;
+    private readonly ILogger<ServicesModel> _logger;
 
-    public OwnersSpeechModel(ILogger<OwnersSpeechModel> logger)
+    public ServicesModel(ILogger<ServicesModel> logger)
     {
         _logger = logger;
     }
