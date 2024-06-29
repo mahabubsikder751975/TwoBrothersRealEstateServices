@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xpRUmIuiSBaSQBOWjSIPfwi/Anaqv8PF2j9ZWxV2jeI=",
+  "Hash": "k1EL8JDI8nX+JMbRsGGpiaADfiS0qqLVFHTuaKSGMNM=",
   "Source": "TwoBrothersRealEstateServices",
   "BasePath": "_content/TwoBrothersRealEstateServices",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\customer_info.txt",
+      "SourceId": "TwoBrothersRealEstateServices",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\",
+      "BasePath": "_content/TwoBrothersRealEstateServices",
+      "RelativePath": "customer_info.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\customer_info.txt"
     },
     {
       "Identity": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\favicon.ico",

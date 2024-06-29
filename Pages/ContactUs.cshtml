@@ -1,5 +1,5 @@
 @page
-@model PrivacyModel
+@model ContactUsModel
 @{
     ViewData["Title"] = "Contact Us";
 }
@@ -11,3 +11,24 @@
 <p>4718 17th Ave NE, Seattle, WA 98105, United States</p>
 
 <p><i class="fas fa-mobile-alt"></i> <a href="tel:+12062199031"><strong>+1 206-219-9031</strong></a></p>
+
+<h2>Customer Information Form</h2>
+<form method="post">
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="FirstName" required><br>
+        <label for="middleName">Middle Name:</label><br>
+        <input type="text" id="middleName" name="MiddleName"><br>
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="LastName" required><br>
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="Address" required><br>
+        <label for="email">Email ID:</label><br>
+        <input type="email" id="email" name="Email" required><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="Phone" required><br>
+        <label for="query">Query/Messages:</label><br>
+        <textarea id="query" name="Query" required></textarea><br><br>
+        <button type="submit">Submit</button>
+</form>
+
+
