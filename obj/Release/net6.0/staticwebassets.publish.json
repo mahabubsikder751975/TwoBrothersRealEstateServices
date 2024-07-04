@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k1EL8JDI8nX+JMbRsGGpiaADfiS0qqLVFHTuaKSGMNM=",
+  "Hash": "uuCghE8qNzZXqsKmPaMGPws9Bs2xf+p8n8Y51KiFNIQ=",
   "Source": "TwoBrothersRealEstateServices",
   "BasePath": "_content/TwoBrothersRealEstateServices",
   "Mode": "Default",
@@ -168,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\Images\\Profile2.jpg",
+      "SourceId": "TwoBrothersRealEstateServices",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\",
+      "BasePath": "_content/TwoBrothersRealEstateServices",
+      "RelativePath": "Images/Profile2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Profile2.jpg"
     },
     {
       "Identity": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\Images\\TwoBro",

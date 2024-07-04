@@ -15,6 +15,11 @@ public class IndexModel : PageModel
     }
 
     [BindProperty]
+    public string FirstName { get; set; }
+    [BindProperty]
+    public string LastName { get; set; }
+
+    [BindProperty]
     public string Email { get; set; }
     [BindProperty]
     public string Phone { get; set; }
@@ -28,7 +33,7 @@ public class IndexModel : PageModel
 
     public IActionResult OnPost()
         {
-            string customerInfo = $"Email ID: {Email}\nPhone Number: {Phone}\nQuery/Messages: {Query}\n\n";
+            string customerInfo = $"First Name: {FirstName}\nLast Name: {LastName}\nEmail ID: {Email}\nPhone Number: {Phone}\nMessage: {Query}\n\n";
             string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "customer_info.txt");
 
             using (StreamWriter writer = new StreamWriter(filePath, true, Encoding.UTF8))

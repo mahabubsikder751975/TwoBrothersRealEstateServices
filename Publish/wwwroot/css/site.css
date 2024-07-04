@@ -72,6 +72,13 @@ grayedout{
   box-sizing: border-box;
   margin-bottom: 10px;  
 }
+.input-control_textarea{
+  width: 100%;
+  max-width: 460px; /* Adjust this value to set the desired width */
+  box-sizing: border-box;
+  margin-bottom: 10px;  
+}
+
 label {
   display: block;
   margin-bottom: 5px;
