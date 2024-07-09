@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uuCghE8qNzZXqsKmPaMGPws9Bs2xf+p8n8Y51KiFNIQ=",
+  "Hash": "PgmcX9cFucRnCfQZdCd3Kz7MDGHiBViESW9y9czwN3A=",
   "Source": "TwoBrothersRealEstateServices",
   "BasePath": "_content/TwoBrothersRealEstateServices",
   "Mode": "Default",
@@ -102,23 +102,6 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\Images\\298928024_568698711624152_8176319146478063429_n.png",
-      "SourceId": "TwoBrothersRealEstateServices",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\",
-      "BasePath": "_content/TwoBrothersRealEstateServices",
-      "RelativePath": "Images/298928024_568698711624152_8176319146478063429_n.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\298928024_568698711624152_8176319146478063429_n.png"
-    },
-    {
       "Identity": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\Images\\Alex.jpg",
       "SourceId": "TwoBrothersRealEstateServices",
       "SourceType": "Discovered",
@@ -134,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Alex.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\Images\\FBCoverImage.jpg",
+      "SourceId": "TwoBrothersRealEstateServices",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\",
+      "BasePath": "_content/TwoBrothersRealEstateServices",
+      "RelativePath": "Images/FBCoverImage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\FBCoverImage.jpg"
     },
     {
       "Identity": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\Images\\logo.jpg",
@@ -185,23 +185,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Profile2.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\Images\\TwoBro",
-      "SourceId": "TwoBrothersRealEstateServices",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\",
-      "BasePath": "_content/TwoBrothersRealEstateServices",
-      "RelativePath": "Images/TwoBro",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\TwoBro"
     },
     {
       "Identity": "C:\\Users\\mahab\\source\\repos\\TwoBrothersRealEstateServices\\wwwroot\\js\\site.js",

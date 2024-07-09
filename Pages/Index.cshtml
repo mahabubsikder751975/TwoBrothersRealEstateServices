@@ -1,23 +1,17 @@
 ﻿@page
 @model IndexModel
-@{
+@* @{
     ViewData["Title"]="Best Real Estate Services";
-}
+} *@
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v20.0" nonce="viE5hlZh"></script>
 
 
-<div class="container">
-    
-    <header>
-        <h1>Welcome to the @ViewData["Title"]</h1>
-        <p>Your trusted partner in the Seattle real estate market.</p>
-    </header>
+<div class="container">        
     <main>
          <section>
             <p>Looking for your dream home or planning to sell your property in Seattle? 
-                We are here to help. As the top real estate services in Seattle, WA,
-                we offer unparalleled service for buyers, sellers, and renters. 
+                We are here to help.
                 Our dedicated team specializes in residential properties, providing expert 
                 advice and personalized service to meet your unique needs. 
                 With over 10 years of experience, 
@@ -25,15 +19,20 @@
                 Visit the Best Real Estate Services and contact us today for a free consultation 
                 and experience the difference!                
             </p>
+             <div class="about-us-menu">
+                <ul>
+                    <li><a class="nav-link" asp-area="" asp-page="/AboutUs">About Us</a></li>          
+                </ul>
+            </div>
         </section>
         <section>
             <h2>Pay only for the best real estate services you need!</h2>
             <p class="offer">For <strong>$2,995*,</strong> get 1.5 hours of initial consultation, home listed in the NWMLS, sign, flyer box, key box, preliminary title, contract write up, and contract negotiation for a successful closing.</p>
-            <p>You must also pay the buyer's agent commission & listing fee only applies to single-family homes priced $2M or less.</p>
+            <p><grayedout>*You must also pay the buyer's agent commission & listing fee only applies to single-family homes priced $2M or less.</grayedout></grayedout></p>
             <p class="offer">If your home sells for <strong>$700,000,</strong>  you can save up to <strong>$18,000</strong> in commission.</p>
             <p class="offer">If your home sells for <strong>$1M,</strong>  you can save up to <strong>$27,000</strong> in commission.</p>
             
-            <h2>Customer Information Form</h2>
+            <h2>Client Information Form</h2>
             
             <form method="post">
                 <div class="row">
@@ -62,7 +61,7 @@
                 <textarea id="query" name="Query" class="input-control_textarea"></textarea>
 
                 <div>
-                    <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="submit" class="btn btn-submit">Submit</button>
                 </div>
                 
             </form>
@@ -76,8 +75,8 @@
         </section>
         <section>
             <h2>Buyers: Get REBATES on commission!</h2>
-            <p class="offer">On a <strong>$700,000,</strong> home, you can get up to a <strong>$10,000</strong> rebate check in the mail after closing.</p>
-            <p class="offer">On a <strong>$1M,</strong> home, you can get up to a <strong>$20,000</strong> rebate check in the mail after closing.</p>
+            <p class="offer">On a <strong>$700,000</strong> home, you can get up to a <strong>$10,000</strong> rebate check in the mail after closing.</p>
+            <p class="offer">On a <strong>$1M</strong> home, you can get up to a <strong>$20,000</strong> rebate check in the mail after closing.</p>
             <p><grayedout>We cooperate with all listing brokers. Please ignore this offer if your home is already listed by the broker. Dove Realty / Best Team. </grayedout></p>
         </section>      
     </main>

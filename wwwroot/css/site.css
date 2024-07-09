@@ -5,12 +5,14 @@
 body {
   font-family:  var(--headlinefont);
   font-size: 16px;
+  display: flex;
   line-height: 1.6;
   margin: 0;
   padding: 0;
   background-color: #BDC3C7; 
   color: #000000; 
 }
+
 header {
   background: #28a745;
   color: #fff;
@@ -63,10 +65,10 @@ a:hover {
 }
 grayedout{
   color: #595f65; 
-  font-size: 14px;
+  font-size: 12px;
 }
 
-.input-control, .btn-submit {
+.input-control {
   width: 100%;
   max-width: 230px; /* Adjust this value to set the desired width */
   box-sizing: border-box;
@@ -95,7 +97,78 @@ label {
   /*font-weight: bold;*/ /* Make the text bold */
 }
 .btn-submit:hover {
-  background-color: #218838; /* Change color on hover */
+  background-color: greenyellow; /* Change color on hover */
+}
+
+.about-us-menu {
+  background: #fff;
+  color: white;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  /* border-radius: 8px; */
+  overflow: hidden;
+  width: 10%;
+  float: right;
+}
+
+.about-us-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-us-menu li {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.about-us-menu li:last-child {
+  border-bottom: none;
+}
+
+.about-us-menu a {
+  display: block;
+  background-color: #4CAF50;
+  text-decoration: none;
+  text-align: right;
+  color: white;
+  font-size: 18px;
+  transition: background 0.3s, color 0.3s;
+  border-top-left-radius: 55px;
+  border-bottom-left-radius: 55px;
+}
+
+
+.about-us-menu a:hover {
+  background: greenyellow;
+  color: black;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1, h2 {
+  color: #333;
+}
+p {
+  color: #555;
+}
+.image-gallery {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+.image-gallery img {
+  width: calc(33.33% - 10px);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-info {
+  margin-top: 20px;
+}
+.contact-info p {
+  font-size: 1.2em;
 }
 
 footer {
